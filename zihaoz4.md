@@ -1,1 +1,203 @@
 # ECE445
+# ECE445
+
+### 02/01/2022 Project Approved
+We got our idea approved
+
+
+### 08/02/2022 First meeting with our TA
+He gave us general information about the project such as the budget that we have, told us to do 
+the proposal
+
+### 02/09/2022 Finishing the proposal
+We have finished the last parts of our proposal. I have redact the introduction, 3 level requierments,
+some sybsytems requirements, tolerance analisys and some ethics points.
+
+### 02/10/2022 First proposal uploaded
+We uploaded our first version of our proposal
+
+
+### 02/14/2022 Design Document Check Sign-up
+We signed in for the design document check on next Tuesday (02/22/2022) at 10 a.m.
+
+
+### 02/15/2022 Analysis of possible cost of out project
+We realized that we are goint to exceed for sure the budget. We have 150$ of budget and our project
+is going to cost approximately 350$. It ha sense because we need solar panel, large battery, precise 
+sensors and uvlight. UVlight water purification systems are sold for 2000$. Our project is cheap 
+compared to that.
+
+
+### 02/16/2022 Second meeting wwith the TA
+In this meeting he told us that:
+- We only need 3 level requirements, and simplify them. Put more details in the subsytem requirements
+part. Delete the last one because is the weakest
+-Put othe calculations for the minimum water flow requirement in the tolerance analysis part. Write 
+abut the decrease in the maximum water flow as a measure to indicate when to remplace the filter
+- Put in the tolerance analysis when the manufacturer recommend changing each of the filters 
+(2 and 12 months).
+- Check if the battery can be charged and charge at the same time. If not, implement a switch  or some
+other way to know when the user is going to use the product.
+-To add components to kicad, try to add some libraries
+- Do the PCB as soon as possible.
+
+
+### 02/18/2022 Soldering assignment done
+I spent Friday morning soldering the board and testing its operation by programming it.
+
+Looking information to solve the problem of charging and discharging the battery at the same time.
+I have found that using a blocking diode between the solar panel and the battery could solve the
+problem. The problem is that our solar panel maintain the voltage constant so this solution doesnt work
+
+
+### 02/19/2022 Work with Kicad
+I tried to find the components that we need in kicad -> they are not included in the main library
+I tried to find other libraries that contain or components -> Nothing
+I tried to design the microcontrollerkit with Kicad.
+
+
+### 02/20/2022 Design some hardware circuit
+Use a solar charge controller to charge the battery and power the load at the same time. And at night
+use the battery as a supply.
+
+Check our 18/25 grade in the proposal to improve and get a better mark in the design document
+
+Realized that we dont need to add all of our compenents to the PCB. We just need to add the
+connectors.
+
+Add voltage regulators 15.4 to 12V and 12V to 5V to the excell that contain information of our parts. Draw a draft of our new blocks diagram.
+See connections of each component.
+
+### 02/21/2022 Finish design document
+Finish the first draf ofthe design document to have it ready for the design document check.
+Cost analysis and schedule.
+
+### 02/22/2022 Design document check
+We present briefly our design document to Arne Fliflet in the design document check.
+He told us:
+- to simplify our 3 level requirements statements
+- Add a physical picture
+- Add the schematics
+- Add more details about the current in the RV tables.
+- Implement a prefilter to prevent our 0.2microfilter to collapse
+-
+### 02/232022 Physical CAD model
+I have created a CAD model of the physical design using Fusion 360. Improving my skills with this program that I used before in a mechanical class.
+
+## 02/24/2022 Change Power Subsystem (Solar Panel)
+I realized that some components in our circuits were not going to work because we didnt have enough power deliver by our solar panel so i decided to change it. Aditionally i try to find more specific components such as the model of voltage regulator that we are going to use.
+
+We finisht redacting the design document to submit it at night
+
+### 02/27/2022 Look up specifications for our components
+I spended the whole day trying to find more information about the components that we already have.
+
+### 02/28/2022 Schematic
+I drew a first draft of the schematics adding some capacitors, resistors and inductors that we havent got into account yet.
+We distribute what we were going to present in the design document presentation and prepare my part
+
+### 03/01/2022 Design document presentation
+We did the presentation to Arne Fliflet. The presentation was great. They (professor and TAs didnt ask us a lot of questions so i think that everything was clear)
+
+We couldnt go to pcb review because we dont have the pcb layout done yet.
+
+### 03/02/2022 Peer review and power uv lights
+I realized that we need to use a mosfet to power our UVlight because it needs 100mA and the microcontroller is not able to provide that current.
+
+I did peer review going to the presentations of team 11. Was very interesting and useful to see how they are working and take some ideas for our project.
+
+I started creating the schematic using kikad.
+
+### 03/05/2022 PCB design
+I helped designing the PCB, modifying the schematics and make them better.
+
+### 03/07/2022 Help finishing schematics
+I help my colleagues answering some questions aboout the schematics. (helping them)
+
+### 03/08/2022 PCB submission
+we submitted the pcb design and pass the audit.
+
+### 03/09/2022 Teamwork evaluation and order filters
+I completed the teamwork evaluation I.
+I ordered the filters and the deposit
+
+### 03/10/2022 Physical CAD design 2.0
+I created a better CAD design and i sended to aarnav to show to the proffessor in the machine shop.
+I also order the parts from digikey and mouser
+
+### 03/16/2022 Talk with the machine shop
+I went with aarnav to the machine shop and we bring the deposit and talk with the professor to have a better idea of what we want to create.
+
+### 03/17/2022 Helo machine shop
+I answered some questions that the machine shop asked us about the design and gave them more information about other parts of our project.
+
+### 03/18/2022 Order components
+I ordered all the components that we will use from digikey and  mouser though my ece portal and I received a confirmation order.
+
+### 03/21/2022 Use de second filter
+I talked to the machine shop about the importance of using the second filter because it is dedicated to remove heavy metals, chlorine, improve the taste and quality... but due to the design they made if we placed the second filter the filtration flow was null. 
+
+### 03/23/2022 First level requirement incomplete
+I wrote to Professor Fliflet telling him that one of our 3 high level requirements was not going to be met due to the design created by the machine shop. By not being able to fit the filter we wanted to use that removed the heavy metals and chlorine the first requirement was not fully met. He told us not to worry, that removing the bacteria content and the major impurities with the filter was enough and to focus on the electrical part and its programming.
+
+The senior design project does not consist of creating a final product, but using an ingenious idea and creating a semi-functional prototype.
+
+### 03/24/2022 Problems with the machine shop design 
+I noticed some complications that make the product worse due to the design of the machine shop.
+The first tank created does not allow all the water introduced through the filter to pass through, so there will always be water in this tank. This will also influence the flow rate through the water flow sensor but we will solve this by programming it differently.
+The connections of the water detector of the first tank are unprotected so the user has to be careful when introducing the water and not to exceed a certain water level.
+They justified us that they had many projects and that they could not dedicate more time to ours. Besides, it is a prototype and not a final product.
+
+### 03/25/2022 Final pyhisical prototype
+We picked up the final product created by the machine shop
+
+### 03/28/2022 Delivery of parts pending
+After waiting more than a week for parts and asking the TA. I wrote an email to the person in charge of ordering the parts through myece and contacting digikey she told us that digikey had had an internal problem and had not processed our order correctly so it had not been shipped yet. We lost a week of work because of the delay in the order and could not get to the second round of ordering pcbs. Additionaly because of the delay some components went out of stock
+
+### 03/30/2022 SOldering most of the components
+ZIhao and me, we went to the laboratory to start soldering the pcb. We sodered everything that we had that was surface mount (resistors, capacitors, voltage regulator)... We could not solder everything becasue some surface mount components hadnt been soldered yet. Additionally we figure it out that the diode that ZIhao chose was microcoscopoe and impossible to soldered.
+
+### 04/02/2022 Try to solder the diode
+I tried to solder the diode and check some of the connections. The diode was impossible to be soldered because was micro so i decided to try solder 2 wires and reuse the diodes that we used in the soldering assignment. 
+
+### 04/04/2022 Las components arrived and reorder the battery
+Microcontroller and some connectors arrived. 
+I also reordered the battery because aarnva order was cancelled by amazon without advise. 
+
+### 04/05/2022 Finish soldering the main PCB
+I desolder the diodes from the soldering assignmebt boards and sodler them again in our pcb. I soldered all the though hole components that we are using in our main pcb. I prepared the connections for the LEDs. With Aarnav, we checked that all the connections are good and we didnt have a short.
+
+### 04/07/2022 Soldering uv lights and make connections
+I soldered the uv light and the connectors to the little pcbs. I briought the physical project to the lab. 
+I observed that we have some problems with the connections because the connectors of the sensors didnt match with the connectors of our pcb. I tried to fix them.
+I connect everything but not the power subsystem because we need an adaptar to connect the solar panel to the circuit.
+
+### 04/08/2022 Order adaptor
+I ordered the adaptor that we need to connect the solar panel to the solar charger.
+
+### 04/09/2022 Probles with the chip
+I tried to find information abput how to program the microcontroller but it was very diffult. Because of being old, it is not compatible with our windows version and we neither be able to find the starting code, and assignments.
+
+### 04/11/2022 Reorder backup parts, try the adaptor.
+The adapator was pretty difficult to connect because it was tigh, but it works properly. We can charge the battery anf supply the load with the sola panel easily
+We reorder a lot of backup parts to have extra replacements.
+Additionally i solved other connections problems using some jumpers.
+we also had problems with the 5V regulator because it was out of stock everywhere. We need to change it to another one and therefore change its circuit associated.
+
+### 04/13/2022 Change PCB?
+we spended more time trying to find how to program our original chip but it was too difficult so we decided to finally change to more common atmega. Additionally having to change the 5V regulator, we also have some diodes connected with wires... it makes us think to create anothe pcb, but we wait decided to see if we could make the connections in a different wait and find the programming code for the first microcontroller.
+
+### 04/15/2022 Fail getting parts
+We received an email saying that our parts was delivered. I went in the afternoon to start checking some components but the pacackge was not in the 20
+ room. It was still in the the supply center and was closed. I tried to contact the supply center office to get our order but it was impossible, therefore we need to wait until monday to continue working. 
+ 
+ ### 04/18/2022 Voltage regulator problems
+ we start testing our new components and try to figure it out an idea to fix the connections problems. How to connect the new voltage regulator and microcontroller without changing the pcb.Finally we decided that it was not possible and i talked to a colleague and she told me that his group orderd a new pcb and they have it in 4 days so we have time.
+ Additionally testing the 5 voltage regulator and the 7 voltage regyulator we had problems becuase the output was no the one that should be. I changed the microcntroller in the schematic to order the new pcb. We decided to go tuesday to office hours to ask a ta.
+ 
+ ### 04/19/2022 Error Reading voltage, OH, Finish schematic, test sensor
+ We asked the TA and he didnt know what was wrong. testin the 7V regulator we were obtaining a 11V without Load and the voltage increases with the load which was very strange. We gave us recommendations of changing the regulators, using other solar panel... but we dont have enough time to order new components and test them.
+Other Aarnav colleague told us that sometimes the multimer dont read well. We used the oscilloscope and finally we got the 7V.
+Additionally we used and arduino and a protoboard to test that the water detector works properly.
+I changed the schematic to order the pcb as soon as possible.
+We also realized that we need a resistor to power our UV lights because without it the current increase a lot and therefore the uvlight doesnt turn on and could also break.
