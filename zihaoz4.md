@@ -123,3 +123,5 @@ Eye contact, too many slides, more results than theoretical thoughts. Add flow c
 ### 04/30/2022 Final works
 Start to write the final paper and keep modifying the slides.
 
+### 05/03/2022 Final presentation
+Did final presentation and peer review. Finishing my part of final paper.
