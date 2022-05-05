@@ -1,0 +1,118 @@
+ECE445 - NOTEBOOK
+aarnavb2
+01/19/2022 Project Proposed
+I proposed our project on this day. This is day we started discussions on its viability and if we could do this as our project as our project for this class. 
+01/25/2022 Move to RFA and new members
+Our discussions ended and were successful, Professor Fiflet told us that we should move to a RFA for this project. Subsequently, Zihao and Alberto joined this project. 
+02/01/2022 Project Approved
+We got our idea approved on this day. This is the day we started to work on our project together. 
+08/02/2022 First meeting with our TA and working on proposal
+This is the day we met out TA Qingyu for the first time. He explained how the deadlines worked in this project. He also told us that we should follow our budget and make all purchases through the ECE website. This is also the day we discussed about what to have in the proposal and divided things to do among the three of us. 
+02/09/2022 Finishing the proposal
+We finished most of our proposal on this day. I worked on the introduction, solution, control subsystem, sensing subsystem, and Indicating subsystem, as well as the Ethics and Safety part of the report. 
+02/10/2022 First proposal uploaded
+We uploaded our first version of our proposal to the website. 
+02/14/2022 Design Document Check Sign-up
+We signed up for the design document check on next Tuesday (02/22/2022) at 10 a.m. Professor Fiflet told me to change the filter to one from LifeStraw today.
+02/15/2022 Analysis of possible cost of our project
+We realized that we are going to exceed our budget for the project. We found out that we would exceed the budget by about $200 dollars. This was because we needed a solar panel, large batteries, precise sensors and UVC light LEDs. However, we do understand that this is because our project is a prototype and first of its kind. That is why it was expensive.
+02/16/2022 Second meeting with the TA
+In this meeting he told us that:
+•	We only need 3 high-level requirements, and that we should simplify them. This is because we had about 4-5 high level requirements. He said that we need to put more details in the subsystem requirements part. He told us that we should delete the last one because as it is not a high-level requirement and that we can put the calculations for the water flow sensor in the tolerance analysis. 
+•	We need to put when the manufacturer recommends changing the filters in the tolerance analysis.
+•	We need to check if the battery can be charged and used at the same time. If not, we need to implement a switch or some other way to know when the user is going to use the product. 
+•	We need to do the PCB as soon as possible. We need add components to kicad if they are not available for our parts. 
+02/18/2022 Soldering assignment done
+I spent Friday evening soldering the board and testing its operation by programming it. I took a lot of help from TA as this was my first time. I was able to finish and show its operation. 
+02/19/2022 Work with KICAD
+We all worked on the KICAD assignment on this day. I could not find the parts, so I waited for my partners to make them or find them online. Then I made some of the connections to the microcontroller. 
+02/20/2022 Designing the hardware circuit and design document
+We decided that we need to charge the battery during the day and use the battery as supply when sun is not available. We got out grades for the proposal today and talked about how to do better. We drafted new block diagrams and did better connections. We worked a little on the design document and used the RFA as base. 
+02/21/2022 Finish design document
+We finished the first draft of the design document to have it ready for the design document check. I worked on the requirements and the subsystem requirements and RV tables. 
+02/22/2022 Design document check
+We had our design document to Arne Fliflet today. He told us:
+•	To simplify our 3 level requirements statements.
+•	Add a physical picture instead of the diagram we had.
+•	Add the circuit schematics to the DD. 
+•	Add more details about the current and voltage of subsystems in the RV tables.
+•	Implement a prefilter to prevent our 0.2 micron microfilter from getting clogged easily. 
+•	Professor Fiflet emailed me the simplified version of our high level requirements today.
+02/23/2022 Design document changes
+I made some of the changes to the design document this day. I simplified the high level requirements. I also added details about the current and voltage to the RV tables. 
+02/24/2022 More design document changes
+We worked more on the design document as it was due soon. We simplified most of the things and we designed a more subsystems for our project. 
+02/27/2022 Normal work on our project
+We tried to find the confirm all the parts and see if our parts are available on the market. I looked up how we can place orders. I also looked up deadlines for the PCB. 
+02/28/2022 Design document review among group
+We decided what we are going to present in the design document. We also discussed about the schematics and how we cannot go to the PCB review as we were still working on it. 
+03/01/2022 Design document presentation
+We did the presentation to Arne Fliflet. I talked about the introduction, some of the subsystems, and the conclusion. The presentation was great. They did not want us to make too many changes to our project. 
+We couldn’t go to PCB review because we did not have the PCB schematics done yet.
+03/05/2022 PCB design
+I helped my teammate in reviewing the PCB and if the PCB would be okay for our project. 
+03/07/2022 Finishing schematics and machine shop appointment
+Zihao and I worked on the schematics Alberto sent. We both worked on his document as a base and added the different subsystems that were missing and all the parts we had left. We also reviewed things and cleared doubts about the things he sent during a meeting. I also made an appointment with the machine shop today.
+03/08/2022 PCB submission
+We submitted the PCB design and passed the audit.
+03/09/2022 Teamwork evaluation 
+I completed the teamwork evaluation this day. 
+03/10/2022 Physical CAD design 2.0
+I helped on the CAD design today. I helped order stuff from digikey and mouser by creating a quote. 
+03/16/2022 Talk with the machine shop
+I went with Alberto to the machine shop and talked with the professor there to have a better idea of what we want to create. We also explained to him about our requirements and what all we would need for our project. .
+03/18/2022 Order components
+I confirmed what parts to order with Alberto and he placed the order. 
+03/23/2022 First level requirement incomplete
+We were discussing and we found out that we were not going to meet one of our high level requirements. Alberto wrote to Professor Fliflet about it, and we ended up changing it to something else. 
+03/24/2022 Problems with the machine shop design
+We found out that there were some issues with the machine shop design and we talked about it to the machine shop. 
+03/25/2022 Final physical prototype
+I picked up the final product created by the machine shop and took it to my place. 
+03/28/2022 Delivery of parts pending
+We did not get our order in time so Alberto messaged them and they said they need a quote. I got the quote and sent it to them. This led to a delay and we could not order another PCB in the second round. A lot of things went out of stock too and we had to find substitutes. 
+04/02/2022 Ordered battery from Amazon and studied microcontroller datasheet
+I ordered battery from amazon as they only had it in stock. I also studied the microcontroller datasheet.
+04/04/2022 Reorder the battery
+We ordered more components this day as my Amazon order was cancelled by them.
+04/05/2022 Finish soldering the main PCB
+I checked that all connections are good and we that we did not have a short.
+04/07/2022 Soldering uv lights and make connections
+We tested the UV lights after my teammates soldered it to one of our PCBs. They worked. 
+04/08/2022 Microcontroller study datasheet
+I tried to test code with the microcontroller. 
+04/09/2022 Problems with the microcontroller
+We all tried to find more information about the microcontroller, but we found we could not use Atmel to code it as it is only compatible with Windows vista. That is why we could not use it anymore. 
+04/11/2022 Reorder backup parts.
+I reordered backup parts this day. I ordered a new microcontroller because it was starting to look like we had to change our microcontroller. 
+04/13/2022 Change PCB
+I tried to find a way to use our current chip as we would have had to order another PCB to make another chip work with our PCB. We could not do it and we had to start making another PCB schematic. 
+04/15/2022 Fail getting parts
+The supply center closed early and we could not get our parts. That is why we had to wait until Monday to work more. 
+04/19/2022 Finish schematic, test sensor
+We were having difficulties testing some of the components if they worked or not. One of my friends told us to not use multimeter but to use the oscilloscope to debug. That is how we finished testing our sensors and found they are all working. We also finished the new schematic after adding the new microcontroller. I made the connections to it. 
+04/20/2022 Order PCB
+We ordered the PCB and it should arrive soon (2 days after before the demo).
+04/22/2022 Breadboard issues
+We received a message that the PCB shipment was delay and it will arrive on May 2. Alberto tried to create a new PCB on the breadboard. I worked on testing the water flow sensor and recording values to see what values we need for code. 
+04/23/2022 Test 'PCB'
+We got a new chip and we tried to fulfil our functionality of the chip with the PCB.
+04/24/2022 Burn Bootloader issue solve
+We took help from another group as we were having issues burning the bootloader on the chip. They gave us another chip and helped us burn the bootloader to it. We checked all our sensors with the chip and they worked. 
+04/25/2022 Atmega48 & short water flow sensor.
+We tested the circuit again, and today the water flow sensor was not working properly. When powering at 5V, the current was more than 200mA when typically, it was 20mA. I created a basic outlay of the code for microcontroller and we created a finite state machine. Both Alberto and I worked on it and made it work. I made sure everything in code was working. 
+04/26/2022 Trying the Code
+We had a new problem measuring the time that the system is filtering the water. The microcontroller we got did not have a stable clock. The clock of it varied from real time by. a factor of about 50. We had to adjust our code using that and use the function milli(). I found out about it in research and it seemed to work after hours of testing. We all worked the whole day on the project today.
+04/27/2022 Final Demo
+We did our final demo today. We did by demonstrating some of the working parts of the circuit. During the presentation we demonstrated that the filtering system worked correctly by introducing water with mud. We also demonstrated how the LED system worked correctly. All subsystems work separately. We got valuable feedback from our Tas and professors and we incorporated it for our mock presentation. 
+04/28/2022 Video and prepare presentation
+I recorded a monologue for our video. I then prepared for the presentation. I created a base for the slides and added our main information. We then worked on the presentation.
+04/29/2022 Mock Presentation
+We did our presentation. We got a lot of advice and we incorporated that advice in our project. 
+04/30/2022 Final presentation preparation
+We started to write the final paper and worked on the slides for the final presentation. 
+05/03/2022 Final presentation
+We did the final presentation and peer review. They both went well. We answered most of the questions well. 
+05/04/2022 Final Paper
+We finished working on the final paper and made the required changes on the paper. 
+
